@@ -1,0 +1,133 @@
+contrib/tools/png-fix-itxt.o: contrib/tools/png-fix-itxt.c \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stddef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/libio.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/_G_config.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/wchar.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdarg.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/zlib.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/zconf.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/limits.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/syslimits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/unistd.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/environments.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/confname.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/getopt.h
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stddef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/libio.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/_G_config.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/wchar.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdarg.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/zlib.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/zconf.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/limits.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/syslimits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/limits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/limits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/unistd.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/environments.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/confname.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/getopt.h:

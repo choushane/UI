@@ -1,0 +1,161 @@
+pngmem.lo: pngmem.c \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h \
+ pngpriv.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stddef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string2.h \
+ config.h pnglibconf.h png.h pngconf.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/limits.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/syslimits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/libio.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/_G_config.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/wchar.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdarg.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/setjmp.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/float.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/math.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_val.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathdef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathinline.h \
+ pngstruct.h /home/shane/TAS/install_UI/SDL/arm/include/zlib.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/zconf.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/unistd.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/confname.h \
+ pnginfo.h pngdebug.h
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h:
+
+pngpriv.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdlib.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stddef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string2.h:
+
+config.h:
+
+pnglibconf.h:
+
+png.h:
+
+pngconf.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/limits.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/syslimits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/limits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/limits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/libio.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/_G_config.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/wchar.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdarg.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/setjmp.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/float.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/math.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_val.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathdef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathinline.h:
+
+pngstruct.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/zlib.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/zconf.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/unistd.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix_opt.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/confname.h:
+
+pnginfo.h:
+
+pngdebug.h:

@@ -1,0 +1,16 @@
+arm/filter_neon.lo: arm/filter_neon.S \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h \
+ arm/../pngpriv.h config.h arm/../pnglibconf.h arm/../png.h
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h:
+
+arm/../pngpriv.h:
+
+config.h:
+
+arm/../pnglibconf.h:
+
+arm/../png.h:

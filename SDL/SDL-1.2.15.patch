@@ -1,0 +1,36 @@
+--- SDL-1.2.15/src/video/fbcon/SDL_fbvideo.c	2014-05-22 11:03:02.000000000 +0800
++++ SDL-1.2.15/src/video/fbcon/SDL_fbvideo.modify.c	2014-05-22 11:07:09.000000000 +0800
+@@ -612,6 +612,10 @@
+ 		vformat->Bmask <<= 1;
+ 		vformat->Bmask |= (0x00000001<<vinfo.blue.offset);
+ 	}
++	for ( i=0; i<vinfo.transp.length; ++i ) {
++		vformat->Amask <<= 1;
++		vformat->Amask |= (0x00000001<<vinfo.transp.offset);
++	}
+ 	saved_vinfo = vinfo;
+ 
+ 	/* Save hardware palette, if needed */
+@@ -1004,6 +1008,7 @@
+ 	Uint32 Rmask;
+ 	Uint32 Gmask;
+ 	Uint32 Bmask;
++	Uint32 Amask;
+ 	char *surfaces_mem;
+ 	int surfaces_len;
+ 
+@@ -1096,8 +1101,13 @@
+ 		Bmask <<= 1;
+ 		Bmask |= (0x00000001<<vinfo.blue.offset);
+ 	}
++	Amask = 0;
++	for ( i=0; i<vinfo.transp.length; ++i ) {
++		Amask <<= 1;
++		Amask |= (0x00000001<<vinfo.transp.offset);
++	}
+ 	if ( ! SDL_ReallocFormat(current, vinfo.bits_per_pixel,
+-	                                  Rmask, Gmask, Bmask, 0) ) {
++	                                  Rmask, Gmask, Bmask, Amask) ) {
+ 		return(NULL);
+ 	}
+ 

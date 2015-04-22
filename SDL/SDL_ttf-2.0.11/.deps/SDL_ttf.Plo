@@ -1,0 +1,354 @@
+SDL_ttf.lo: SDL_ttf.c \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/math.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/features.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_val.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_valf.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_vall.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/inf.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/nan.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathdef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathinline.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdio.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stddef.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/types.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/libio.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/_G_config.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/wchar.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdarg.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdlib.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/endian.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/endian.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/xlocale.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/types.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/time.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/select.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/select.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/time.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/alloca.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/string.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string2.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ft2build.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftheader.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/freetype.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftconfig.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftoption.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftstdlib.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/limits.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/syslimits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/limits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/limits.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/xopen_lim.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/setjmp.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/fttypes.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftsystem.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftimage.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/fterrors.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftmoderr.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/fterrdef.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftoutln.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftstroke.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftglyph.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/freetype2/ttnameid.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_main.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_stdinc.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_config.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_platform.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/strings.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/inttypes.h \
+ /opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdint.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdint.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/ctype.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/iconv.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/errno.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/errno.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/errno.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/asm/errno.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h \
+ /opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/begin_code.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/close_code.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_audio.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_error.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_endian.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_mutex.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_thread.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_rwops.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_cdrom.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_cpuinfo.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_events.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_active.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_keyboard.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_keysym.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_mouse.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_video.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_joystick.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_quit.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_loadso.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_timer.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_version.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_endian.h SDL_ttf.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/begin_code.h \
+ /home/shane/TAS/install_UI/SDL/arm/include/SDL/close_code.h
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdc-predef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/predefs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/math.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/features.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/cdefs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wordsize.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/gnu/stubs-hard.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_val.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_valf.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/huge_vall.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/inf.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/nan.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathdef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathcalls.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/mathinline.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdio.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stddef.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/types.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/typesizes.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/libio.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/_G_config.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/wchar.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdarg.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sys_errlist.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdio.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdlib.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/waitflags.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/waitstatus.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/endian.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/endian.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/byteswap-16.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/xlocale.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/types.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/time.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/select.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/select.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/sigset.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/time.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/sys/sysmacros.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/pthreadtypes.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/alloca.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-bsearch.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/stdlib-float.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/string.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/string2.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ft2build.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftheader.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/freetype.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftconfig.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftoption.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/config/ftstdlib.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/limits.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include-fixed/syslimits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/limits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix1_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/local_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/limits.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/posix2_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/xopen_lim.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/setjmp.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/setjmp.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/fttypes.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftsystem.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftimage.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/fterrors.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftmoderr.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/fterrdef.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftoutln.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftstroke.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ftglyph.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/freetype2/ttnameid.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_main.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_stdinc.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_config.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_platform.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/strings.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/inttypes.h:
+
+/opt/cross-project/arm/linaro/lib/gcc/arm-linux-gnueabihf/4.8.2/include/stdint.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/stdint.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/wchar.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/ctype.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/iconv.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/errno.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/bits/errno.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/linux/errno.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/asm/errno.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno.h:
+
+/opt/cross-project/arm/linaro/arm-linux-gnueabihf/libc/usr/include/asm-generic/errno-base.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/begin_code.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/close_code.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_audio.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_error.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_endian.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_mutex.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_thread.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_rwops.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_cdrom.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_cpuinfo.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_events.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_active.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_keyboard.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_keysym.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_mouse.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_video.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_joystick.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_quit.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_loadso.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_timer.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_version.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/SDL_endian.h:
+
+SDL_ttf.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/begin_code.h:
+
+/home/shane/TAS/install_UI/SDL/arm/include/SDL/close_code.h:
